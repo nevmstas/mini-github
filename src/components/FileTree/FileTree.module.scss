@@ -1,0 +1,35 @@
+@import 'src/app/variables.module.scss';
+
+.treeContainer {
+  font-size: large;
+}
+
+.folder {
+  color: $primary-color;
+  font-weight: 600;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: $primary-color-dark;
+  }
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.file {
+  color: #1982c4;
+  font-weight: 400;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: #958abc;
+  }
+}

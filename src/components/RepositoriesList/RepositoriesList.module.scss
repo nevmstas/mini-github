@@ -1,0 +1,10 @@
+@import 'src/app/variables.module.scss';
+
+.cardsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: auto;
+}

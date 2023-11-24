@@ -1,0 +1,28 @@
+@import 'src/app/variables.module.scss';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: $secondary-color;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  min-height: 100px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.repositoryName {
+  color: $text-color-dark;
+  font-size: x-large;
+  font-weight: 900;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.repositoryDescription {
+  color: $text-color-dark;
+}

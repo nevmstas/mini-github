@@ -1,0 +1,32 @@
+@import 'src/app/variables.module.scss';
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.treeContainer {
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: $secondary-color;
+  position: sticky;
+  top: 20px;
+  height: 1000px;
+  overflow: auto;
+
+  @media screen and (max-width: #{$small-screen-max-width-px}px) {
+    display: none;
+  }
+}
+
+.codeContainer {
+  flex: 2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: $secondary-color;
+}

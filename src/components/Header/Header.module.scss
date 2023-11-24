@@ -1,0 +1,13 @@
+@import 'src/app/variables.module.scss';
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 40px;
+}
+
+.title {
+  font-size: xx-large;
+  color: $secondary-color;
+  font-weight: bold;
+}

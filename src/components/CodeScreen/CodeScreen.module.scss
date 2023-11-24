@@ -1,0 +1,12 @@
+@import 'src/app/variables.module.scss';
+
+.codeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.icon {
+  color: $primary-color;
+}

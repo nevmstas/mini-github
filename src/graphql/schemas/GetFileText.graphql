@@ -1,0 +1,9 @@
+query GetFileText($owner: String!, $repoName: String!, $fileOid: GitObjectID!) {
+  repository(owner: $owner, name: $repoName) {
+    object(oid: $fileOid) {
+      ... on Blob {
+        text
+      }
+    }
+  }
+}

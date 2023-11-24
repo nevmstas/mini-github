@@ -1,0 +1,17 @@
+@import 'src/app/variables.module.scss';
+
+.errorContainer {
+  background-color: $secondary-color;
+  color: $primary-color;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  position: absolute;
+}
+
+.close {
+  cursor: pointer;
+}

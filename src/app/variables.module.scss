@@ -1,0 +1,13 @@
+$text-color-dark: #1b1725;
+$green-color: #40531b;
+$primary-color: #ed474a;
+$primary-color-dark: #850000;
+$secondary-color: #ffd8be;
+
+$small-screen-max-width-px: 768;
+
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  smallScreenMaxWidthPx: $small-screen-max-width-px;
+}
